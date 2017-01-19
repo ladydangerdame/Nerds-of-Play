@@ -1,5 +1,7 @@
 @import "project3app-thredded";
 @import "flash-messages";
+$thredded-brand: #9c27b0;
+@import "thredded";
 
 .app {
   @include thredded--clearfix;

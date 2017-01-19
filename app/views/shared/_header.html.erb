@@ -1,4 +1,5 @@
 <header role="banner" class="app-header">
+<nav class="navbar navbar-default navigation-clean-button">
   <span class="app-nav-auth">
     <% if current_user %>
         <%= link_to current_user.display_name, user_path(current_user) %>
@@ -9,5 +10,6 @@
         <%= link_to t('nav.sign_in'), main_app.new_user_session_path %>
     <% end %>
   </span>
-  <a class="app-nav-logo" href="/"><%= t 'brand.name' %></a>
+</nav>
+  <a class="app-nav-logo" href="/"><%= t 'Nerds of Play' %></a>
 </header>
